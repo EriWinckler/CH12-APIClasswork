@@ -32,7 +32,7 @@ function Crypto() {
     getCryptoData();
   }, []);
 
-  console.log(cryptoData.slice(0, 10));
+  console.log(cryptoData);
 
   return (
     <div>
